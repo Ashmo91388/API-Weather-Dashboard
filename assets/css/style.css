@@ -36,3 +36,11 @@ h1 {
     opacity: 1;
     transition: 0.3s;
 }
+
+main{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
