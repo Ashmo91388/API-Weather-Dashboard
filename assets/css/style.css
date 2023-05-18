@@ -1,25 +1,71 @@
-* {
+/* * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1 {
+/* body{
+    margin: 0;
+} */
+
+/* h1 {
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, slateblue, darkslateblue);
     padding-bottom: 2%;
+    margin-bottom: 0;
+}
+
+/* main{ */
+    /* display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    border-style: solid;
+    width: 75%;
+    float: right;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0; */
+    /* margin-top: 0; /* Remove the top margin */
+    /* border-style: dotted; */
+    /* width: 75%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* padding: 20px; */
+
+/* } */
+/* 
+main{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.weather-container {
+    border-style: dotted;
+    padding: 20px;
+  }
+
+.weather-header{
+  border-style: dotted;
+  margin-top: 0%;
+  padding: 0%;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #location-form {
-    display: flex;
+     display: flex;
     flex-direction: column;
     width: 250px;
     padding: 10px;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 
@@ -35,12 +81,73 @@ h1 {
     margin: 4px 2px;
     opacity: 1;
     transition: 0.3s;
-}
+}  */
 
-main{
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: center;
+* {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, slateblue, darkslateblue);
+    padding-bottom: 2%;
+    margin-bottom: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.weather-container {
+    border-style: dotted;
+    padding: 20px;
+}
+
+.weather-header {
+    border-style: dotted;
+    margin-top: 0;
+    padding: 0;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#location-form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+#location-form button {
+    background-color: #6495ed;
+    border-radius: 15px 15px;
+    width: 250px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.forecast-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
