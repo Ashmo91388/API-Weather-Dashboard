@@ -17,5 +17,6 @@ Uses dynamic HTML and CSS to update the weather information in real-time.
 
 ## Author :writing_hand:
 
-GitHub - github.com/Ashmo91388/
+GitHub - github.com/Ashmo91388
+
 ![Weather Image](assets/images/weather-app.png)
