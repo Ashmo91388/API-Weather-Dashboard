@@ -15,3 +15,6 @@ Uses dynamic HTML and CSS to update the weather information in real-time.
 -CSS
 -JavaScript 
 
+## Author :writing_hand:
+
+GitHub - github.com/Ashmo91388/
