@@ -1,4 +1,4 @@
-### API-Weather-Dashboard :earth_americas:
+# API-Weather-Dashboard :earth_americas:
 
 A server side API weather dashboard, that provides 5-day weather forecast. 
 
