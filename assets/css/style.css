@@ -111,7 +111,8 @@ main {
 }
 
 .weather-header {
-    border-style: dotted;
+    /* border-style: dotted; */ 
+
     margin-top: 0;
     padding: 0;
     width: 20%;

@@ -1,5 +1,5 @@
 
-//Using API key from 
+//Using API key from api open weather site 
 var weatherApiKey = "a6ab1061f0a62a0088f003fabf585276";
 
 // Form submission handler 
@@ -16,7 +16,7 @@ var handleFormSubmit = function(event) {
             return response.json();
         })
         .then(function(data) {
-            // current weather information
+            // to update the current weather info
             var cityNameElement = document.getElementById("city-name");
             cityNameElement.textContent = data.city.name;
 
@@ -34,7 +34,7 @@ var handleFormSubmit = function(event) {
             forecastContainer.innerHTML = ""; 
 
             for (var i = 0; i < data.list.length; i += 8) {
-                var forecast = data.list[i];
+                var forecast = data.list[i];// loop used to itierate through data.list array 
 
                 var forecastCard = document.createElement("div");
                 forecastCard.classList.add("forecast-card");
@@ -66,3 +66,4 @@ var handleFormSubmit = function(event) {
 // event listener for the form
 var locationForm = document.getElementById("location-form");
 locationForm.addEventListener("submit", handleFormSubmit);
+
